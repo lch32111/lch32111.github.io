@@ -1,23 +1,50 @@
-# Ignore docs files
-_gh_pages
 _site
-_drafts
-.ruby-version
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
 
-# Numerous always-ignore extensions
-*.diff
-*.err
-*.orig
+# Local Netlify folder
+.netlify
+
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
 *.log
-*.rej
-*.swo
-*.swp
-*.vi
-*~
+*.sql
+*.sqlite
 
-# OS or Editor folders
+# OS generated files #
+######################
 .DS_Store
+.DS_Store?
 ._*
+.Spotlight-V100
+.Trashes
+# Icon?
+ehthumbs.db
 Thumbs.db
 .cache
 .project
@@ -25,30 +52,54 @@ Thumbs.db
 .tmproj
 *.esproj
 nbproject
-*.sublime-project
-*.sublime-workspace
-.idea
 
-# Komodo
+# Numerous always-ignore extensions #
+#####################################
+*.diff
+*.err
+*.orig
+*.rej
+*.swn
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+*.grunt
+*.tmp
+
+# Dreamweaver added files #
+###########################
+dwsync.xml
+
+# Komodo #
+###########################
 *.komodoproject
 .komodotools
 
-# grunt-html-validation
-validation-status.json
-validation-report.json
-
-# Folders to ignore
+# Node #
+#####################
 node_modules
-package*.json
-vendor
-.sass-cache
-.jekyll-metadata
-.jekyll-cache
-*.gem
-_zip
-/stats.json
-/dist
-/build
 
-/assets/js/*hydejack-*
-/_sass/*/__*__/*
+# Bower #
+#####################
+bower_components
+
+# Folders to ignore #
+#####################
+.hg
+.svn
+.CVS
+intermediate
+publish
+.idea
+.graphics
+_test
+_archive
+uploads
+tmp
+
+# Vim files to ignore #
+#####################
+.VimballRecord
+.netrwhist
