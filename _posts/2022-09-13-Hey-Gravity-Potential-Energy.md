@@ -22,21 +22,15 @@ In Newtonian mechanics, two or more masses always pull each other with a gravita
 
 Therefore, we can think of the $$mgh$$ equation as the simple one that makes us understand the idea of potential energy. We can do some math to understand the gravitational energy. By Newton's law of gravitation,
 
-
 $$
 F = \frac{GMm}{r^2}
 $$
 
-
-
-
 where $$G$$ is the gravitational constant, $$M$$ and $$m$$ are the mass of two objects, respectively, and $$r$$ is the distance between two objects. The work done by this force from infinity to the destination $$R$$ is
-
 
 $$
 W = \int^R_{\infty} \frac{GMm}{r^2} \; dr = - \frac{GMm}{r} \Bigg|^R_{\infty} = -\frac{GMm}{r}
 $$
-
 
 Since $$W = - \Delta U$$ and $$\Delta U = - W = \frac{GMm}{r}$$, where $$U$$ is potential energy and $$W$$ is work. so we can think that, if the gravitational force works on an object from $$x$$ to $$y$$, then its amount of change of potential energy is $$\Delta U =   - \int^y_x \frac{GMm}{r^2} = \frac{GMm}{y}  - \frac{GMm}{x}$$.
 
