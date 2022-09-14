@@ -4,7 +4,7 @@ title: "Hey Gravity Potential Energy"
 date : 2022-09-13
 tags:
   - Physics
-toc: true
+toc: false
 comments: true
 category : Physics
 author : Chanhaeng Lee
