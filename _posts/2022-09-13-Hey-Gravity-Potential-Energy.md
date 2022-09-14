@@ -45,9 +45,6 @@ So let's clear our confusing points in this gravitational energy. I really love 
 So, I think if there is no statement that you should calculate the gravitational potential energy relative to the Earth, then you can just use the $$U = - \frac{GMm}{r}$$ which depends on the assumption I told you above.
 
 
-
----
-
 [^1]: Gravitational energy. (2022, September, 14). In Wikipedia. https://en.wikipedia.org/wiki/Gravitational_energy
 [^2]: Newton's law of universal gravitation. (2022, September, 14). In Wikipedia. https://en.wikipedia.org/wiki/Newton%27s_law_of_universal_gravitation
 [^3]: Potential energy. (2022. September, 14). In Wikipedia. https://en.wikipedia.org/wiki/Potential_energy
