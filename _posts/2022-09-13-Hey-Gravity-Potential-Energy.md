@@ -12,7 +12,7 @@ author : Chanhaeng Lee
 
 
 
-### Gravitational Energy[^1]
+## Gravitational Energy[^1]
 
 I'd like to understand gravitational force[^2] and its potential energy[^3].  In physics, **potential energy** is "the energy held by an object because of its position relative to other objects, stresses within itself, its electric charge, or other factors".  **work**[^4] is "the energy transferred to or from an object via the application of force along a displacement". Normally the work is the product of force and displacement.
 
@@ -45,8 +45,13 @@ So let's clear our confusing points in this gravitational energy. I really love 
 So, I think if there is no statement that you should calculate the gravitational potential energy relative to the Earth, then you can just use the $$U = - \frac{GMm}{r}$$ which depends on the assumption I told you above.
 
 
+
+---
+
+
 [^1]: Gravitational energy. (2022, September, 14). In Wikipedia. https://en.wikipedia.org/wiki/Gravitational_energy
 [^2]: Newton's law of universal gravitation. (2022, September, 14). In Wikipedia. https://en.wikipedia.org/wiki/Newton%27s_law_of_universal_gravitation
 [^3]: Potential energy. (2022. September, 14). In Wikipedia. https://en.wikipedia.org/wiki/Potential_energy
 [^4]: Work (physics). (2022, September, 14). In Wikipedia. https://en.wikipedia.org/wiki/Work_(physics)
 [^5]: Why is gravitational potential energy negative, and what does that mean? https://physics.stackexchange.com/questions/17082/why-is-gravitational-potential-energy-negative-and-what-does-that-mean
+
