@@ -8,8 +8,4 @@ author: false
 
 
 
-
-
-# Test
-
-Hi My Name is Chanhaen Lee
+My [CV](/assets/chan/CV_ChanhaengLee.pdf)
