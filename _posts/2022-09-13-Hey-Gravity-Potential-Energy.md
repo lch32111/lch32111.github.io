@@ -1,13 +1,10 @@
 ---
 layout: post
-title: "Hey Gravity Potential Energy"
+title: Hey Gravity Potential Energy
 date : 2022-09-13
-tags:
-  - Physics
-toc: false
-comments: true
+description : summary for gravitational energy
+tags: Physics
 category : Physics
-author : Chanhaeng Lee
 ---
 
 

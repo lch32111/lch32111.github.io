@@ -1,53 +1,31 @@
-<!-- HEAD -->
+    <!-- Metadata, OpenGraph and Schema.org -->
+    {% include metadata.html %}
 
-<head>
-    <!-- More information: https://htmlhead.dev/ -->
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1" name="viewport"/>
-    <meta content="Jekyll" name="generator">
-    <link href="LICENSE" rel="license">
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@{{ site.bootstrap.version }}/dist/css/bootstrap.min.css" rel="stylesheet" integrity="{{ site.bootstrap.integrity.css }}" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@{{ site.mdb.version }}/css/mdb.min.css" integrity="{{ site.mdb.integrity.css }}" crossorigin="anonymous" />
 
-    <meta content="{{ site.title }}" property="og:site_name"/>
-    <meta content="{{ site.description }}" property="og:description">
-    <meta content="{{ site.url }}/about/" property="article:author">
-    <meta name="Description" content="{{ site.description }}">
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@{{ site.fontawesome.version }}/css/all.min.css" integrity="{{ site.fontawesome.integrity }}" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@{{ site.academicons.version }}/css/academicons.min.css" integrity="{{ site.academicons.integrity }}" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
 
-    {%- if page.title -%}
-        <meta content="{{ page.title }}" property="og:title">
-        <meta content="article" property="og:type">
-        <meta content="{{ site.url }}{{ page.url }}" property="og:url">
-    {%- else -%}
-        <meta content="website" property="og:type">
-        <meta content="{{ site.url }}{{ page.url }}" property="og:url">
-    {%- endif -%}
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/{{ site.highlight_theme_light | append: '.css' }}" media="" id="highlight_theme_light" />
 
-    <title>{{site.title}}
-        {% if page.title %}|
-            {{page.title}}{%endif%}</title>
+    <!-- Styles -->
+    {% if site.icon.size < 3 %}
+    <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>{{ site.icon }}</text></svg>">
+    {% elsif site.icon != blank %}
+    <link rel="shortcut icon" href="{{ site.icon | prepend: '/assets/img/' | relative_url}}"/>
+    {% endif %}
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+    
+    <!-- Dark Mode -->
+    {% if site.enable_darkmode %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/{{ site.highlight_theme_dark | append: '.css' }}" media="none" id="highlight_theme_dark" />
 
-        <meta name="application-name" content="{{ site.title }}">
-        <meta name="theme-color" content="{{ site.theme_color }}">
-        <link rel="archives" href="{{site.url}}/archives/">
-
-        <meta content="index,follow" name="robots"><!-- All Search Engines -->
-        <meta content="index,follow" name="googlebot"><!-- Google Specific -->
-        
-            <!-- Font Awesome 5 -->
-        <script crossorigin="anonymous" src="https://kit.fontawesome.com/e9dddf84a6.js"></script>
-
-        <link rel="icon" href="{{site.favicon}}" type="image/png" sizes="16x16"/>
-        <link rel="canonical" href="{{site.url}}{{page.url}}">
-        <link rel="apple-touch-icon" href="{{site.profile_pic}}">
-
-        <!-- Bootstrap core CSS -->
-        <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" rel="stylesheet">
-        <!-- CSS -->
-        <link class="default" href="/assets/css/style.css" media="all" rel="stylesheet"/>
-
-        <!--[if IE]>
-        <link href="/assets/css/ie-target.css" rel="stylesheet" type="text/css"/>
-        <![endif]-->
-            <!--<link href="/assets/css/prism.css" rel="stylesheet" />-->
-        <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
-    </head
-</head>
+    <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
+    {% endif %}

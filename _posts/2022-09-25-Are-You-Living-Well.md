@@ -1,10 +1,9 @@
 ---
+layout : post
 title: Are You Living Well?
 date : 2022-09-25
-author : Chanhaeng Lee
-layout : post
-tags:
-  - Thoughts
+description : Recognizing your wellness
+tags: Thoughts
 category : Thoughts
 ---
 
