@@ -5,4 +5,4 @@ inline: true
 
 ---
 
-I defended my master's <a href="https://spectrum.library.concordia.ca/id/eprint/994526/">thesis</a>!
+I defended my master <a href="https://spectrum.library.concordia.ca/id/eprint/994526/">thesis</a>!
