@@ -2,9 +2,8 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: 
-nav: true
-nav_order: 5
+description: -
+nav: false
+nav_order: 6
 ---
 
-* 2022 Fall : TA for COMP 352 Data Structures and Algorithms.
