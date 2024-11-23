@@ -218,7 +218,7 @@ latest_posts:
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  input: GFM
+  input: Kramdown
   syntax_highlighter_opts:
     css_class: "highlight"
     span:
@@ -306,7 +306,7 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["Computer Graphics"] # these tags will be displayed on the front page of your blog
+display_tags: ["ChLib"] # these tags will be displayed on the front page of your blog
 display_categories: [] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------

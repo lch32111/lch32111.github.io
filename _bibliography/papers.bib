@@ -5,7 +5,7 @@
             year = {2024},
            month = {September},
           school = {Concordia University},
-            note = {Master's thesis. The accepted paper version will be updated soon},
+            note = {Master's thesis. The accepted paper version for ECCV workshop will be updated soon},
           author = {Lee, Chanhaeng},
         abstract = {We propose a method for real-time cloth deformation using neural networks, especially for draping a garment on a human body. The computational overhead of most of the existing learning methods for cloth deformation often limits their use in interactive applications. Employing a two-stage training process, our method predicts garment deformations in real-time. 
 In the first stage, a graph neural network extracts cloth vertex features which are compressed into a latent vector with a mesh convolution network. We then decode the latent vector to blend shape weights, which are fed to a trainable blend shape module. In the second stage, we freeze the latent extraction and train a latent predictor network. The predictor uses a subset of the inputs from the first stage, ensuring that inputs are restricted to those which are readily available in a typical game engine. Then, during inference, the latent predictor predicts the compacted latent which is processed by the decoder and blend shape networks from the first stage.

@@ -19,7 +19,7 @@ ChLib is my personal library that is used to build a game engine and other appli
 
 
 
-Here is the highlight list of my implementations:
+Here is the highlight list of my implementations ([Full credits here](/blog/2024/ChLib-Full-Credits)):
 
 * ChSTL : All the data structures works with my allocators
   * BuddyBlock and Arena Allocator
@@ -33,7 +33,7 @@ Here is the highlight list of my implementations:
 * ChFontCook
   * OpenType/TrueType Font Decoder
   * Font Rasterizer
-* ChGUI
+* ChGUI (Here are my [slides](/blog/2024/Building-GUI-from-scratch) for building this library)
   * Immediate Mode GUI
   * One draw call GUI rendering, inspired by Our Machinery
 * ChModelData
