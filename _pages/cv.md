@@ -1,11 +1,11 @@
 ---
-layout: cv
+layout: post
 permalink: /cv/
 title: cv
+date: 2024-11-23 01:00:00
 nav: true
 nav_order: 5
-cv_pdf: example_pdf.pdf
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
 ---
+
+* <a href="/assets/pdf/chanhaenglee_cv_eng.pdf" target="_blank">English CV PDF</a>
+* <a href="/assets/pdf/chanhaenglee_cv_kor.pdf" target="_blank">한국어 CV PDF</a>
