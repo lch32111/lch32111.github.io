@@ -313,6 +313,16 @@ These are the credits of papers, source code, and websites, which help me write 
 
 
 
+### Physically-Based Rendering
+
+* Burley, B., & Studios, W. D. A. (2012, August). Physically-based shading at disney. In *Acm Siggraph* (Vol. 2012, pp. 1-7). vol. 2012.
+  * https://disneyanimation.com/publications/physically-based-shading-at-disney/
+  * https://github.com/wdas/brdf
+* Physically Based Rendering in Filament
+  * https://google.github.io/filament/Filament.html
+
+
+
 ## Model Data
 
 * Models downloaded from Morgan McGuire's [Computer Graphics Archive](https://casual-effects.com/data)

@@ -50,4 +50,8 @@ Here are the pictures and gifs of my progresses:
 * Model Rendering
 
   {% include figure.liquid loading="eager" path="assets/img/chlib_background.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+  
+* Disney Principled BRDF
+
+  * {% include figure.liquid loading="eager" path="assets/img/chlib_pbr.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 
