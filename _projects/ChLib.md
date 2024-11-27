@@ -2,7 +2,7 @@
 layout: page
 title: ChLib
 description: My personal library
-img: assets/img/chlib_background.png
+img: assets/img/chlib_pbr.png
 importance: 1
 category: work
 related_publications: false
