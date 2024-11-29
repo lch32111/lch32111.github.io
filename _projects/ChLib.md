@@ -3,7 +3,7 @@ layout: page
 title: ChLib
 description: My personal library
 img: assets/img/chlib_pbr.png
-importance: 1
+importance: 2
 category: work
 related_publications: false
 ---
@@ -53,5 +53,5 @@ Here are the pictures and gifs of my progresses:
   
 * Disney Principled BRDF
 
-  * {% include figure.liquid loading="eager" path="assets/img/chlib_pbr.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+  {% include figure.liquid loading="eager" path="assets/img/chlib_pbr.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 
